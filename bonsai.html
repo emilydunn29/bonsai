@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bonsai/0.4/bonsai.min.js"></script>
+<div id="movie"></div>
+<script>
+  bonsai.run(document.getElementById('movie'), {
+    code: function() {
+       //Put all your code here
+  var music = new Audio([ { src: 'song.mp3' } ]);
+     music.addTo(stage)
+	   music.on('load', function() 
+	   {
+  			this.play();
+	   });
+	   music.loop = true; 
+      var myShape = new Rect(10, 0, 450, 570);
+myShape.fill('black');
+myShape.stroke('black', 2);
+myShape.addTo(stage);
+var myShape = new Star(50, 50, 10, 5, 3)
+   myShape.fill('yellow');
+   myShape.animate('1s', {
+    fillColor: 'white'},{ 
+    repeat: Infinity
+  });
+   myShape.addTo(stage);
+var myShape=new Ellipse(230, 280, 200, 250, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(200, 110, 100, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+var myShape=new Rect(200, 120, 100, 10, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(180, 120, 20, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(300, 120, 20, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(180, 130, 140, 10, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(170, 130, 10, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(320, 130, 10, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(170, 140, 160, 40, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(160, 140, 10, 20,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(330, 140, 10, 20,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(160, 160, 10, 20, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(330, 160, 10, 20, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+  var myShape=new Rect(150, 160, 10, 20,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(340, 160, 10, 20,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(150, 180, 200, 60, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(350, 180, 10, 20,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+  var myShape=new Rect(150, 230, 200, 60, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(350, 200, 10, 40,);
+  myShape.fill('red')
+  myShape.stroke ('red',2);
+  myShape.addTo(stage);
+var myShape=new Rect(360, 200, 30, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(390, 210, 10, 40,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(340, 210, 50, 60,);
+  myShape.fill('red')
+  myShape.stroke ('red',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(380, 250, 20, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);    
+var myShape=new Rect(350, 260, 40, 10,);
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(180, 260, 170, 20,);
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(340, 270, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+var myShape=new Rect(330, 240, 10, 10,);
+  myShape.fill('red')
+  myShape.stroke ('red',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(80, 280, 230, 120, );
+  myShape.fill('yellow')
+  myShape.stroke ('yellow',2);
+  myShape.addTo(stage);
+var myShape=new Rect(310, 280, 40, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+var myShape=new Rect(310, 290, 10, 70, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(300, 350, 10, 40, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(290, 380, 10, 30, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(140, 400, 160, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(140, 180, 10, 70, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(150, 240, 10, 20, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(150, 250, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(170, 260, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(190, 270, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(210, 280, 10, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(130, 390, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+var myShape=new Rect(120, 380, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(110, 370, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(100, 360, 20, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(90, 350, 10, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);   
+var myShape=new Rect(80, 340, 10, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(70, 300, 10, 40, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+var myShape=new Rect(80, 290, 10, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+var myShape=new Rect(90, 280, 50, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(140, 270, 30, 10, );
+  myShape.fill('black')
+  myShape.stroke ('black',2);
+  myShape.addTo(stage);
+var myShape=new Rect(140, 260, 30, 10, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(80, 280, 10, 10, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(80, 350, 10, 50, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage); 
+var myShape=new Rect(90, 360, 10, 40, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage);  
+var myShape=new Rect(100, 370, 10, 30, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage);
+var myShape=new Rect(110, 380, 10, 20, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage);
+var myShape=new Rect(120, 390, 10, 10, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage);
+var myShape=new Rect(300, 390, 20, 20, );
+  myShape.fill('white')
+  myShape.stroke ('white',2);
+  myShape.addTo(stage); 
+var myShape=new Circle(260,200,25);
+  myShape.fill('white');
+  myShape.addTo(stage);
+var myShape=new Circle(260,200,20);
+  myShape.fill('black');
+  myShape.addTo(stage);
+var myShape=new Circle(270,190,5);
+  myShape.fill('white');
+  myShape.addTo(stage);
+var myShape=new Arc(380, 200, 50, 1.5, 2.6, false)
+  myShape.stroke('black',2)
+  myShape.addTo(stage);
+var myShape=new Arc(200, 300, 50, 1.5, 2.6, false)
+  myShape.stroke('black',2)
+  myShape.addTo(stage);
+var movingpolygon = new Polygon(300, 300, 15, 5).attr({
+ fillColor: 'blue',
+ strokeColor: 'blue',
+ strokeWidth: 5,
+ x: 450,
+ y: 560,
+});
+movingpolygon.addTo(stage);
+movingpolygon.animate('5s', //time to complete the animation
+ {
+ //rotation: Math.PI*2, //how much to rotate it
+ x: 0, //final x position
+ y: 0, //final y position
+ fillColor: 'white'
+ }, 
+ { 
+ //easing: 'elasticInOut', //fancy motions (search easing on API)
+ repeat: Infinity //number of times to repeat
+ }
+);
+
+var movingpolygon2 = new Polygon(300, 300, 15, 5).attr({
+ fillColor: 'red',
+ strokeColor: 'red',
+ strokeWidth: 5,
+ x: 400,
+ y: 560,
+});
+movingpolygon2.addTo(stage);
+movingpolygon2.animate('5s', //time to complete the animation
+ {
+ //rotation: Math.PI*2, //how much to rotate it
+ x: 0, //final x position
+ y: 0, //final y position
+ fillColor: 'white'
+ }, 
+ { 
+ //easing: 'elasticInOut', //fancy motions (search easing on API)
+ repeat: Infinity //number of times to repeat
+ }
+);
+var movingpolygon3 = new Polygon(300, 300, 15, 5).attr({
+ fillColor: 'green',
+ strokeColor: 'green',
+ strokeWidth: 5,
+ x: 500,
+ y: 560,
+});
+movingpolygon3.addTo(stage);
+movingpolygon3.animate('5s', //time to complete the animation
+ {
+ //rotation: Math.PI*2, //how much to rotate it
+ x: 0, //final x position
+ y: 0, //final y position
+ fillColor: 'white'
+ }, 
+ { 
+ //easing: 'elasticInOut', //fancy motions (search easing on API)
+ repeat: Infinity //number of times to repeat
+ }
+);
+
+var movingpolygon5 = new Polygon(300, 300, 15, 5).attr({
+ fillColor: 'orange',
+ strokeColor: 'orange',
+ strokeWidth: 5,
+ x: 450,
+ y: 510,
+});
+movingpolygon5.addTo(stage);
+movingpolygon5.animate('5s', //time to complete the animation
+ {
+ //rotation: Math.PI*2, //how much to rotate it
+ x: 0, //final x position
+ y: 0, //final y position
+ fillColor: 'white'
+ }, 
+ { 
+ //easing: 'elasticInOut', //fancy motions (search easing on API)
+ repeat: Infinity //number of times to repeat
+ }
+);
+var movingpolygon4 = new Polygon(300, 300, 15, 5).attr({
+ fillColor: 'purple',
+ strokeColor: 'purple',
+ strokeWidth: 5,
+ x: 450,
+ y: 610,
+});
+movingpolygon4.addTo(stage);
+movingpolygon4.animate('5s', //time to complete the animation
+ {
+ //rotation: Math.PI*2, //how much to rotate it
+ x: 0, //final x position
+ y: 0, //final y position
+ fillColor: 'white'
+ }, 
+ { 
+ //easing: 'elasticInOut', //fancy motions (search easing on API)
+ repeat: Infinity //number of times to repeat
+ }
+);
+ 
+        },
+    width: 1100,   //change the width and height of the canvas
+    height: 1000
+  });
+</script></body>
+</html>
